@@ -1,2 +1,2 @@
 # Bryce-rgb.github.io
-# CS 160
+ CS 160
