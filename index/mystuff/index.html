@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Stuff</title>
 
+    <!--internal style sheet-->
 <style>
 h1 {
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -16,6 +17,20 @@ p {
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         color: black;
 }
+
+a {
+    background-color:red;
+}
+
+/*class example*/
+.fun {
+        color:salmon
+}
+ /*ex implementing class 
+
+ <h1 class="fun">test</h1>
+ */
+ 
 </style>
 
 </head>
@@ -28,7 +43,14 @@ p {
 
     <p style="font-size: 24pt;">sample text font-size: 24pt</p>
 
-
+    <ul style="border-style: solid; padding: 16px; width: 50px;">
+         <li>   
+             <a href="../index.html">Go Home</a>
+         </li>
+         <li>
+            <a href="page2.html">Page Two</a>
+        </li>
+    </ul>
 
 </body>
 </html>
